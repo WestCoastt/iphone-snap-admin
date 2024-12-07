@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import searchIcon from "../assets/search.svg";
 
 export default function Reservations() {
   return (
@@ -6,11 +7,7 @@ export default function Reservations() {
       <h1 className="text-2xl mt-2 mb-2 font-bold md:mb-6">예약현황</h1>
       <div className="w-full max-w-[768px] sticky top-0 bg-white p-4">
         <div className="flex border border-gray-300 rounded-3xl px-2 py-2 mb-4 md:py-3">
-          <img
-            src="/src/assets/search.svg"
-            alt="search"
-            className="w-5 mx-2 md:w-6"
-          />
+          <img src={searchIcon} alt="search" className="w-5 mx-2 md:w-6" />
           <input
             type="text"
             placeholder="Search"
