@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  max-width: 768px;
+  margin: auto;
+}
+
+.app-container {
+  @apply text-center h-full min-h-dvh shadow-lg py-4 bg-white;
+}
+
+.rdp-root {
+  --rdp-accent-color: #fda4a4 !important;
+}
