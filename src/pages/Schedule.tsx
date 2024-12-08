@@ -81,7 +81,7 @@ export default function Schedule() {
   const fetchSchedules = async (formatedMonth: string) => {
     try {
       const res = await fetch(
-        `http://localhost:8080/api/v1/schedule?month=${formatedMonth}`
+        `https://api.pesca-bianca.com/api/v1/schedule?month=${formatedMonth}`
       );
       const data = await res.json();
       console.log(data);
