@@ -30,9 +30,9 @@ export default function Login() {
   };
 
   return (
-    <div className="app-container flex flex-col">
-      <div className="w-full max-w-[480px] px-6">
-        <h1 className="mb-12 text-2xl font-bold text-center">로그인</h1>
+    <div className="app-container flex flex-col items-center justify-center">
+      <div className="w-full max-w-[480px] px-6 m-0">
+        <h1 className="mb-8 text-2xl font-bold text-center">로그인</h1>
         <form onSubmit={handleLogin} className="space-y-4">
           <div className="text-left">
             <label className="block mb-1">아이디</label>
